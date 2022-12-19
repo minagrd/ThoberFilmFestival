@@ -55,13 +55,14 @@
                         padding:20px;
                         padding-top: 30px;
                         background: linear-gradient(to right, rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.274))}
-                    h3 {color:gainsboro;}
+                    h3 {color:rgb(255, 255, 255);
+                        text-transform: uppercase;}
                         
                     p {padding-top: 15px;
                         padding-bottom:4px;
                         color:white;
                         font-family:Verdana, sans-serif;}
-                       
+                    
                            
                           
                 /*card decorativ*/
@@ -75,11 +76,10 @@
                     .card-alb {
                         padding-top:70px;
                         padding-bottom:10px;}
-
-                /*spacer*/
-                    .spacer {
-                         margin-top: 40px;
-                        margin-bottom: 40px; }
+                /*footer*/
+                .slay {background-color: rgb(21, 21, 21);}
+                .iconic {background-color: rgba(82, 17, 17, 0.121);
+                        border-radius: 40%}
 
                             
             </style>
@@ -129,8 +129,8 @@
                                     </li>
 
                                     <li class="nav-item active">
-                                        <a href="#Hartă" class="nav-link">
-                                            Hartă
+                                        <a href="#Harta-festivalului" class="nav-link">
+                                            Harta festivalului
                                         </a>
                                     </li>
 
@@ -322,7 +322,7 @@
                 </div>
     
                
-            <!--Workshops-si-VIP-bilete-->
+            <!--Workshops-bilete-->
         <div id="Bilete" class="spacer">
         </div>
                 
@@ -333,16 +333,16 @@
                     </h2>
                 </div>
 
-                <!--Card-1-WORKSHOP-SCRIERE-CREATIVĂ-->
+                <!--Card-1-WORKSHOP-si-VIP-SCRIERE-CREATIVĂ-->
                 <div class="row g-10 justify-content-center">
                         <div class="col-sm-12 col-md-6 col-lg-3">
                             <div class="card text-white bg-dark mb-3">
                                 <div class="card-header">
-                                    Header
+                                    Workshop 1
                                 </div>
                                 <div class="card-body">
                                     <h3 class="card-title">
-                                        Dark card title
+                                        Scriere creativă
                                     </h3>
                                     <p class="card-text">
                                         Some quick example text to build on the card title and make up the bulk of the
@@ -356,11 +356,11 @@
                         <div class="col-sm-12 col-md-6 col-lg-3">
                             <div class="card text-white bg-dark mb-3">
                                 <div class="card-header">
-                                    Header
+                                    Workshop 2
                                 </div>
                                 <div class="card-body">
                                     <h3 class="card-title">
-                                        Dark card title
+                                        Fotografie
                                     </h3>
                                     <p class="card-text">
                                         Some quick example text to build on the card title and make up the bulk of the
@@ -370,14 +370,15 @@
                             </div>
                         </div>
 
+                    <!--Card-3-BILETE-VIP-->
                     <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="card text-white bg-dark mb-3">
                             <div class="card-header">
-                                Header
+                                Workshop 3
                             </div>
                             <div class="card-body">
                                 <h3 class="card-title">
-                                    Dark card title
+                                    Bilete vip
                                 </h3>
                                 <p class="card-text">
                                     Some quick example text to build on the card title and make up the bulk of the
@@ -389,10 +390,10 @@
                 </div>
             </div>
 
-            <div id="Hartă" class="container card-alb">
+            <div id="Harta-festivalului" class="container card-alb">
                 <div class="container">
                     <h2>
-                        Hartă
+                        Harta festivalului
                     </h2>
                 </div>
                 <!--carusel-->
@@ -452,7 +453,33 @@
                     </div>
                 </div>
             </div>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+            <!-- Footer -->
+            <footer class="slay text-center text-white">
+                <div class="container p-2">
+            
+                <!-- Secțiune-Social-media -->
+                <section class="mt-2">
+                    <!-- Facebook -->
+                    <a class="iconic btn btn-dark btn-floating m-1" href="https://www.facebook.com/" target="_blank" role="button"><i class="fab fa-facebook-f"></i></a>
+                    
+                    <!-- Instagram -->
+                    <a class="iconic btn btn-dark btn-floating m-1" href="https://www.instagram.com/" target="_blank" role="button"><i class="fab fa-instagram"></i></a>
+                    
+                    <!-- Youtube -->
+                    <a class="iconic btn btn-dark btn-floating m-1" href="https://www.youtube.com/" target="_blank" role="button"><i class="fab fa-youtube"></i></a>
+                </section>
 
+                </div>
+            
+                <!-- Copyright -->
+                <div class="slay text-center p-3">
+                © 2022 Copyright:
+                <a class="text-white" href="https://minagrd.github.io/ThoberFilmFestival/">ThoberFilmFestival</a>
+                </div>
+            
+            </footer>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+            <script src="https://kit.fontawesome.com/d6572ca7d6.js" crossorigin="anonymous"></script>
         </body>
     </html>
